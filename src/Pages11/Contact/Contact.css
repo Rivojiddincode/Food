@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    width: 100%;
+    margin: auto;
+    height: 57vh;
+    background-color: #F9F9F7;
+}
+
+.ctn {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctn h2 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #2C2F24;
+    margin-top: 40px;
+    font-family: Playfair Display;
+}
+
+.ctn p {
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    color: #495460;
+    width: 480px;
+    margin-top: 10px;
+    font-family: DM Sans;
+    text-align: center;
+}
+
+.input {
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: DM Sans;
+}
+
+.input-in {
+    width: 600px;
+    height: 455px;
+    border-radius: 15px;
+    border: none;
+    background-color: #FFFF;
+    padding: 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card11 input {
+    width: 270px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #DBDFD0;
+    font-family: DM Sans;
+}
+
+.topp p{
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input-in .ppp {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.input-in .pass {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    padding: 20px;
+    border: 1px solid #DBDFD0;
+}
+.pass-long input{
+    display: flex;
+    align-items: start;
+}
+
+.pass-long input {
+    width: 100%;
+    height: 140px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #DBDFD0;
+    font-family: DM Sans;
+}
+
+
+.input-in button {
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: #AD343E;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.info {
+    width: 39%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: DM Sans;
+}
+
+.info1 h3 {
+    color: #2C2F24;
+    font-family: DM Sans;
+    margin-bottom: 20px;
+}
+
+.info1 p {
+    margin-bottom: 20px;
+    color: #2C2F24;
+    font-family: DM Sans;
+}
+
+.info1 .raqam {
+    color: #AD343E;
+    font-weight: 700;
+}

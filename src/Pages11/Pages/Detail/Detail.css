@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 360vh;
+    background-color: #F9F9F7;
+}
+
+.header {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.head h2 {
+    font-size: 55px;
+    font-weight: 500;
+    color: #2C2F24;
+    font-family: Playfair Display;
+    text-align: center;
+}
+
+.head img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.text {
+    margin: auto;
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: DM Sans;
+}
+
+.text h3 {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    color: #2C2F24;
+    font-family: DM Sans;
+}
+
+.text p {
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    color: #414536;
+    font-family: DM Sans;
+}
+
+.head2 {
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.head2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.text2 h3 {
+    margin-top: 40px;
+    font-family: sans-serif;
+    color: #2C2F24;
+    font-family: DM Sans;
+}
+
+.text2 p {
+    font-family: sans-serif;
+    line-height: 22px;
+    flex-wrap: wrap;
+    color: #414536;
+    margin-top: 20px;
+    font-family: DM Sans;
+}
+
