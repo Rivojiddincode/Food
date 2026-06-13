@@ -37,7 +37,7 @@ function Heder() {
           <NavLink  className="nav-menu" to="/menu">
             Menu
           </NavLink>
-          <NavLink  className="nav-menu" to="/*">
+          <NavLink  className="nav-menu" to="/page">
             Pages
           </NavLink>
           <NavLink  className="nav-menu" to="/contact">

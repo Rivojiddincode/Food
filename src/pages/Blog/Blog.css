@@ -1,9 +1,11 @@
 
 .container.blog-section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 40px 20px;
   text-align: center;
+  height: 145vh;
+  
 }
 
 .container.blog-section h2 {
@@ -27,6 +29,7 @@
   background: #fff;
   border: 1px solid #eee;
   border-radius: 8px;
+  height: 300px;
   overflow: hidden;
   text-align: left;
   transition: transform 0.3s ease;

@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from "../../../assets/Blog_Img/img1.png"
-import img2 from "../../../assets/Blog_Img/img2.png"
+import img1 from "../../assets/Blog_Img/img1.png"
+import img2 from "../../assets/Blog_Img/img2.png"
 
 import "./Detail.css"
 

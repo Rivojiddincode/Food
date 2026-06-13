@@ -3,8 +3,11 @@ import "./Contact.css"
 
 const Contact = () => {
   return (
-    <div>
+    <div className='cont-box'>
       <div className="contact">
+        <div className='rang'>
+
+       
         <div className="ctn">
             <h2>Contact Us</h2>
             <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
@@ -30,7 +33,7 @@ const Contact = () => {
                 <button>Send</button>
             </div>
         </div>
-        <div className="info">
+        <div className="infor">
             <div className="info1">
                 <h3>Call Us:</h3>
                 <p className='raqam'>+1-234-567-8900</p>
@@ -44,6 +47,7 @@ const Contact = () => {
                 <p>123 Bridge Street <br />Nowhere Land, LA 12345 <br />United States</p>
             </div>
         </div>
+         </div>
       </div>
     </div>
   )
